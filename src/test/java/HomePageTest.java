@@ -44,6 +44,8 @@ public class HomePageTest {
         WebElement textInput = driver.findElement(By.xpath("//input[@name='email']"));
         textInput.sendKeys("pasan");
 
+        System.out.println("Test Passed !!!!!!!!!");
+
         //driver.quit();
     }
 }
